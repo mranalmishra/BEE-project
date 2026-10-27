@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "_id": "demo-user-uuid-1001",
+      "id": "demo-user-uuid-1001",
+      "name": "Alex Rivera",
+      "email": "demo@example.com",
+      "passwordHash": "$2b$10$.P34jZbac8kmOYvQtaUDv.zhf0LhxJUbE923ZjRwYRxrTOGMoGN7O",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-26T09:31:46.595Z",
+      "updatedAt": "2026-10-26T09:31:46.597Z"
+    },
+    {
+      "_id": "user-1793007791799-6wlv6s",
+      "id": "user-1793007791799-6wlv6s",
+      "name": "Kushagar",
+      "email": "abc@gmail.com",
+      "passwordHash": "$2b$10$dPxdMIoVHmFT0jVFP7gynuCimRWbU.8QqaHt4EtKXu4F/lh9x/Ca.",
+      "avatarUrl": "",
+      "createdAt": "2026-10-26T09:43:11.799Z",
+      "updatedAt": "2026-10-26T09:43:11.799Z"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "note-1793007907138-l6oek7",
+      "id": "note-1793007907138-l6oek7",
+      "userId": "user-1793007791799-6wlv6s",
+      "title": "Bee",
+      "content": "js",
+      "tags": [],
+      "color": "#dcfce7",
+      "isPinned": false,
+      "isArchived": true,
+      "isDeleted": true,
+      "createdAt": "2026-10-26T09:45:07.138Z",
+      "updatedAt": "2026-10-26T09:45:22.567Z"
+    },
+    {
+      "_id": "note-101",
+      "id": "note-101",
+      "userId": "demo-user-uuid-1001",
+      "title": "Welcome to PrivateNotes Workspace! 🚀",
+      "content": "### Quick Features Tour\n- **Markdown Support**: Headers, *italics*, **bold**, lists and code blocks.\n- **Color & Pinning**: Pin crucial notes to the top and color-code them.\n- **Tags & Search**: Search anything instantly by title, body, or click tags.\n- **Per-user Data Isolation**: Every registered user gets a 100% isolated private vault!",
+      "tags": [
+        "Guide",
+        "Welcome"
+      ],
+      "color": "#e0f2fe",
+      "isPinned": true,
+      "isArchived": false,
+      "isDeleted": false,
+      "createdAt": "2026-10-26T07:31:46.597Z",
+      "updatedAt": "2026-10-26T09:41:03.314Z"
+    },
+    {
+      "_id": "note-102",
+      "id": "note-102",
+      "userId": "demo-user-uuid-1001",
+      "title": "Project Architecture & Tech Stack 🛠️",
+      "content": "**Backend**: Node.js, Express, JWT, bcryptjs, Express-Validator, Morgan\n**Frontend**: React 18, Vite, Tailwind CSS, Lucide Icons, Axios\n**Database Ready**: Built-in zero-config store + drop-in Mongoose schemas for MongoDB Atlas!",
+      "tags": [
+        "Tech",
+        "MERN"
+      ],
+      "color": "#fef3c7",
+      "isPinned": true,
+      "isArchived": false,
+      "isDeleted": false,
+      "createdAt": "2026-10-26T04:31:46.597Z",
+      "updatedAt": "2026-10-26T09:31:46.597Z"
+    },
+    {
+      "_id": "note-103",
+      "id": "note-103",
+      "userId": "demo-user-uuid-1001",
+      "title": "Sprint Checklist 📝",
+      "content": "- [x] JWT Authentication & Token Expiry\n- [x] Per-user CRUD Note Routes\n- [x] Pin, Archive & Trash Soft-Delete\n- [x] Dark/Light Theme Switching\n- [ ] Deploy to Render & Vercel",
+      "tags": [
+        "Tasks",
+        "Sprint"
+      ],
+      "color": "#dcfce7",
+      "isPinned": false,
+      "isArchived": false,
+      "isDeleted": false,
+      "createdAt": "2026-10-25T09:31:46.597Z",
+      "updatedAt": "2026-10-26T09:31:46.597Z"
+    }
+  ]
+}
